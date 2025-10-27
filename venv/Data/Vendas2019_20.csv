@@ -1,0 +1,307 @@
+IDVenda,DataVenda,Produto,Categoria,Quantidade,PrecoUnitario,PrecoTotal,TipoPagamento,Cliente,EmailCliente,Marca
+1,2019-01-02,Leite Desnatado 1L,Laticinios,24,4.12,98.88,Dinheiro,Gustavo Souza,gustavo.souza20190@fantasia.com.br,Leveza do Campo
+2,2019-01-02,Azeite de Oliva,Mercearia,97,16.69,1618.93,Cartao de Debito,Leopoldina Lima,leopoldina.lima@email.com,Ouro do Campo
+3,2019-01-02,Agua Mineral 1.5L,Bebidas,9,2.26,20.34,Cartao de Credito,Diego Souza,diego.souza@email.com,Pura Fonte
+4,2019-01-03,Arroz Integral 5kg,Mercearia,31,20.57,637.67,Cartao de Debito,Laura Silva,laura.silva@email.com,Colheita Nobre
+5,2019-01-06,Agua Mineral 1.5L,Bebidas,92,2.47,227.24,Pix,Ricardo Rocha,ricardo.rocha@email.com,Pura Fonte
+6,2019-01-07,Iogurte Natural,Laticinios,45,3.85,173.25,Cartao de Credito,Ana Costa,ana.costa@email.com,Fazenda Saudável
+7,2019-01-08,Café Extra Forte 500g,Mercearia,18,12.90,232.20,Dinheiro,Carlos Mendes,carlos.mendes@email.com,Café do Sítio
+8,2019-01-09,Refrigerante Cola 2L,Bebidas,67,5.75,385.25,Pix,Fernanda Lima,fernanda.lima@email.com,RefriMax
+9,2019-01-10,Queijo Mussarela,Laticinios,32,28.90,924.80,Cartao de Debito,Roberto Alves,roberto.alves@email.com,Queijo Bom
+10,2019-01-11,Macarrão Espaguete,Mercearia,54,3.45,186.30,Cartao de Credito,Patricia Santos,patricia.santos@email.com,Massa Nova
+11,2019-01-12,Suco de Laranja 1L,Bebidas,28,8.20,229.60,Dinheiro,Marcos Oliveira,marcos.oliveira@email.com,Suco Fresco
+12,2019-01-13,Manteiga com Sal,Laticinios,41,6.80,278.80,Pix,Juliana Pereira,juliana.pereira@email.com,Manteiga Pura
+13,2019-01-14,Feijão Carioca 1kg,Mercearia,76,7.25,551.00,Cartao de Debito,Rodrigo Silva,rodrigo.silva@email.com,Feijão Bom
+14,2019-01-15,Chá Verde,Bebidas,23,4.50,103.50,Cartao de Credito,Camila Rocha,camila.rocha@email.com,Chá Natureza
+15,2019-01-16,Requeijão Cremoso,Laticinios,19,9.30,176.70,Dinheiro,Bruno Costa,bruno.costa@email.com,Cremoso do Vale
+16,2019-01-17,Açúcar Cristal,Mercearia,62,3.20,198.40,Pix,Amanda Souza,amanda.souza@email.com,Açúcar Doce
+17,2019-01-18,Energético 250ml,Bebidas,44,6.90,303.60,Cartao de Debito,Thiago Lima,thiago.lima@email.com,Energia Total
+18,2019-01-19,Leite Integral 1L,Laticinios,57,4.35,247.95,Cartao de Credito,Vanessa Martins,vanessa.martins@email.com,Leite Puro
+19,2019-01-20,Farinha de Trigo,Mercearia,38,4.80,182.40,Dinheiro,Leonardo Almeida,leonardo.almeida@email.com,Farinha Boa
+20,2019-01-21,Água com Gás,Bebidas,29,3.25,94.25,Pix,Carolina Ferreira,carolina.ferreira@email.com,Água Borbulhante
+21,2019-01-22,Iogurte Grego,Laticinios,51,5.90,300.90,Cartao de Debito,Felipe Rodrigues,felipe.rodrigues@email.com,Grego Natural
+22,2019-01-23,Sal Refinado,Mercearia,84,1.90,159.60,Cartao de Credito,Renata Barbosa,renata.barbosa@email.com,Sal Mar
+23,2019-01-24,Refrigerante Limão,Bebidas,36,5.50,198.00,Dinheiro,Daniel Nunes,daniel.nunes@email.com,RefriCitrus
+24,2019-01-25,Queijo Prato,Laticinios,47,32.40,1522.80,Pix,Larissa Costa,larissa.costa@email.com,Queijo do Campo
+25,2019-01-26,Óleo de Soja,Mercearia,73,5.60,408.80,Cartao de Debito,Gabriel Santos,gabriel.santos@email.com,Óleo Puro
+26,2019-01-27,Suco de Uva 1L,Bebidas,42,9.80,411.60,Cartao de Credito,Isabela Lima,isabela.lima@email.com,Suco da Uva
+27,2019-01-28,Leite em Pó,Laticinios,25,18.70,467.50,Dinheiro,Rafael Souza,rafael.souza@email.com,Leite Solúvel
+28,2019-01-29,Vinagre de Maçã,Mercearia,58,7.40,429.20,Pix,Tatiane Oliveira,tatiane.oliveira@email.com,Vinagre Natural
+29,2019-01-30,Água Tônica,Bebidas,31,4.80,148.80,Cartao de Debito,Vinícius Costa,vinicius.costa@email.com,Tônica Pure
+30,2019-01-31,Iogurte Zero Lactose,Laticinios,64,6.20,396.80,Cartao de Credito,Priscila Alves,priscila.alves@email.com,LactoZero
+31,2019-02-01,Café Tradicional 500g,Mercearia,22,10.50,231.00,Dinheiro,Eduardo Mendes,eduardo.mendes@email.com,Café Mineiro
+32,2019-02-02,Refrigerante Laranja,Bebidas,49,5.25,257.25,Pix,Mariana Rocha,mariana.rocha@email.com,Laranja Refri
+33,2019-02-03,Manteiga sem Sal,Laticinios,37,7.20,266.40,Cartao de Debito,André Pereira,andre.pereira@email.com,Manteiga Light
+34,2019-02-04,Arroz Parboilizado 5kg,Mercearia,81,18.90,1530.90,Cartao de Credito,Natália Silva,natalia.silva@email.com,Arroz Select
+35,2019-02-05,Chá de Hortelã,Bebidas,26,4.20,109.20,Dinheiro,Paulo Oliveira,paulo.oliveira@email.com,Chá da Serra
+36,2019-02-06,Requeijão Light,Laticinios,53,8.90,471.70,Pix,Cristina Santos,cristina.santos@email.com,Cremoso Light
+37,2019-02-07,Açúcar Mascavo,Mercearia,45,4.50,202.50,Cartao de Debito,Marcelo Costa,marcelo.costa@email.com,Açúcar Natural
+38,2019-02-08,Energético Zero,Bebidas,33,7.50,247.50,Cartao de Credito,Luciana Lima,luciana.lima@email.com,Energia Zero
+39,2019-02-09,Leite Semidesnatado,Laticinios,68,4.25,289.00,Dinheiro,Roberto Martins,roberto.martins@email.com,Leite Bom
+40,2019-02-10,Farinha de Mandioca,Mercearia,39,5.20,202.80,Pix,Sandra Almeida,sandra.almeida@email.com,Farinha da Roça
+41,2019-02-11,Água Mineral 500ml,Bebidas,72,1.80,129.60,Cartao de Debito,Fábio Rodrigues,fabio.rodrigues@email.com,Água Pura
+42,2019-02-12,Iogurte com Frutas,Laticinios,27,4.80,129.60,Cartao de Credito,Beatriz Nunes,beatriz.nunes@email.com,Frutas Iogurte
+43,2019-02-13,Sal Grosso,Mercearia,59,2.10,123.90,Dinheiro,Ricardo Barbosa,ricardo.barbosa@email.com,Sal Natural
+44,2019-02-14,Refrigerante Guaraná,Bebidas,44,5.40,237.60,Pix,Fernanda Costa,fernanda.costa@email.com,Guaraná Nativo
+45,2019-02-15,Queijo Minas,Laticinios,35,26.80,938.00,Cartao de Debito,José Santos,jose.santos@email.com,Queijo da Serra
+46,2019-02-16,Óleo de Girassol,Mercearia,66,6.80,448.80,Cartao de Credito,Alice Lima,alice.lima@email.com,Óleo Solar
+47,2019-02-17,Suco de Maçã 1L,Bebidas,41,8.50,348.50,Dinheiro,Miguel Souza,miguel.souza@email.com,Suco da Maçã
+48,2019-02-18,Leite Condensado,Laticinios,48,4.90,235.20,Pix,Laura Oliveira,laura.oliveira@email.com,Leite Doce
+49,2019-02-19,Vinagre Branco,Mercearia,52,6.30,327.60,Cartao de Debito,Carlos Ferreira,carlos.ferreira@email.com,Vinagre Puro
+50,2019-02-20,Água de Coco,Bebidas,38,5.20,197.60,Cartao de Credito,Ana Paula,ana.paula@email.com,Coco Natural
+51,2019-02-21,Iogurte Natural Zero,Laticinios,61,5.40,329.40,Dinheiro,Rodrigo Alves,rodrigo.alves@email.com,Zero Lactose
+52,2019-02-22,Café Descafeinado,Mercearia,29,14.20,411.80,Pix,Patrícia Mendes,patricia.mendes@email.com,Café Suave
+53,2019-02-23,Refrigerante Citrus,Bebidas,55,5.60,308.00,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Citrus Refri
+54,2019-02-24,Manteiga com Ervas,Laticinios,43,8.70,374.10,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Manteiga Especial
+55,2019-02-25,Arroz Integral 1kg,Mercearia,77,5.80,446.60,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Arroz Saúde
+56,2019-02-26,Chá de Camomila,Bebidas,32,4.00,128.00,Pix,Thiago Oliveira,thiago.oliveira@email.com,Chá Calmante
+57,2019-02-27,Requeijão Tradicional,Laticinios,54,7.80,421.20,Cartao de Debito,Julio Santos,julio.santos@email.com,Cremoso Trad
+58,2019-02-28,Açúcar Demerara,Mercearia,46,5.20,239.20,Cartao de Credito,Marina Costa,marina.costa@email.com,Açúcar Premium
+59,2019-03-01,Energético Frutas,Bebidas,39,7.20,280.80,Dinheiro,Felipe Lima,felipe.lima@email.com,Energia Frutal
+60,2019-03-02,Leite Aromatizado,Laticinios,65,5.10,331.50,Pix,Camila Martins,camila.martins@email.com,Leite Sabor
+61,2019-03-03,Farinha de Rosca,Mercearia,42,6.40,268.80,Cartao de Debito,Rafael Almeida,rafael.almeida@email.com,Farinha Crocante
+62,2019-03-04,Água Mineral 2L,Bebidas,58,2.80,162.40,Cartao de Credito,Larissa Rodrigues,larissa.rodrigues@email.com,Água Cristal
+63,2019-03-05,Iogurte Proteico,Laticinios,36,7.80,280.80,Dinheiro,Gustavo Nunes,gustavo.nunes@email.com,Proteína Iogurte
+64,2019-03-06,Sal Light,Mercearia,63,2.40,151.20,Pix,Amanda Barbosa,amanda.barbosa@email.com,Sal Light
+65,2019-03-07,Refrigerante Cola Zero,Bebidas,47,6.20,291.40,Cartao de Debito,Leonardo Costa,leonardo.costa@email.com,Cola Zero
+66,2019-03-08,Queijo Cottage,Laticinios,44,12.90,567.60,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Cottage Light
+67,2019-03-09,Óleo de Canola,Mercearia,71,5.90,418.90,Dinheiro,Diego Lima,diego.lima@email.com,Óleo Canola
+68,2019-03-10,Suco de Pêssego,Bebidas,34,9.20,312.80,Pix,Carolina Souza,carolina.souza@email.com,Suco Pêssego
+69,2019-03-11,Creme de Leite,Laticinios,57,3.80,216.60,Cartao de Debito,Ricardo Oliveira,ricardo.oliveira@email.com,Creme Nobre
+70,2019-03-12,Vinagre Balsâmico,Mercearia,49,15.80,774.20,Cartao de Credito,Fernanda Ferreira,fernanda.ferreira@email.com,Balsâmico Fino
+71,2019-03-13,Água com Sabor,Bebidas,52,3.40,176.80,Dinheiro,Marcos Alves,marcos.alves@email.com,Água Sabor
+72,2019-03-14,Iogurte Infantil,Laticinios,41,4.20,172.20,Pix,Patricia Mendes,patricia.mendes@email.com,Iogurte Kids
+73,2019-03-15,Café Premium,Mercearia,26,16.80,436.80,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Café Premium
+74,2019-03-16,Refrigerante Uva,Bebidas,59,5.70,336.30,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Uva Refri
+75,2019-03-17,Manteiga com Alho,Laticinios,48,9.20,441.60,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Manteiga Alho
+76,2019-03-18,Arroz Japonês,Mercearia,74,22.50,1665.00,Pix,Thiago Oliveira,thiago.oliveira@email.com,Arroz Japonês
+77,2019-03-19,Chá de Frutas Vermelhas,Bebidas,37,4.60,170.20,Cartao de Debito,Julio Santos,julio.santos@email.com,Chá Frutas
+78,2019-03-20,Requeijão com Ervas,Laticinios,55,10.40,572.00,Cartao de Credito,Marina Costa,marina.costa@email.com,Cremoso Ervas
+79,2019-03-21,Açúcar Orgânico,Mercearia,43,7.80,335.40,Dinheiro,Felipe Lima,felipe.lima@email.com,Açúcar Org
+80,2019-03-22,Energético Natural,Bebidas,46,8.20,377.20,Pix,Camila Martins,camila.martins@email.com,Energia Natural
+81,2019-03-23,Leite de Cabra,Laticinios,32,12.50,400.00,Cartao de Debito,Rafael Almeida,rafael.almeida@email.com,Leite Cabra
+82,2019-03-24,Farinha de Aveia,Mercearia,67,8.90,596.30,Cartao de Credito,Larissa Rodrigues,larissa.rodrigues@email.com,Aveia Pura
+83,2019-03-25,Água Mineral 5L,Bebidas,53,4.20,222.60,Dinheiro,Gustavo Nunes,gustavo.nunes@email.com,Água Grande
+84,2019-03-26,Iogurte Desnatado,Laticinios,44,4.60,202.40,Pix,Amanda Barbosa,amanda.barbosa@email.com,Iogurte Light
+85,2019-03-27,Sal Marinho,Mercearia,58,3.20,185.60,Cartao de Debito,Leonardo Costa,leonardo.costa@email.com,Sal Marinho
+86,2019-03-28,Refrigerante Limão Zero,Bebidas,51,6.40,326.40,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Limão Zero
+87,2019-03-29,Queijo Gouda,Laticinios,39,35.80,1396.20,Dinheiro,Diego Lima,diego.lima@email.com,Gouda Nobre
+88,2019-03-30,Óleo de Milho,Mercearia,72,4.90,352.80,Pix,Carolina Souza,carolina.souza@email.com,Óleo Milho
+89,2019-03-31,Suco de Manga,Bebidas,35,8.80,308.00,Cartao de Debito,Ricardo Oliveira,ricardo.oliveira@email.com,Suco Manga
+90,2019-04-01,Leite em Pó Integral,Laticinios,62,21.50,1333.00,Cartao de Credito,Fernanda Ferreira,fernanda.ferreira@email.com,Leite Pó Integral
+91,2019-04-02,Vinagre de Vinho,Mercearia,45,12.40,558.00,Dinheiro,Marcos Alves,marcos.alves@email.com,Vinagre Vinho
+92,2019-04-03,Água Mineral com Gás,Bebidas,48,3.60,172.80,Pix,Patricia Mendes,patricia.mendes@email.com,Água Gaseificada
+93,2019-04-04,Iogurte com Cereal,Laticinios,53,5.70,302.10,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Iogurte Cereal
+94,2019-04-05,Café Orgânico,Mercearia,31,18.90,585.90,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Café Org
+95,2019-04-06,Refrigerante Guaraná Zero,Bebidas,56,6.60,369.60,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Guaraná Zero
+96,2019-04-07,Manteiga com Pimenta,Laticinios,47,10.80,507.60,Pix,Thiago Oliveira,thiago.oliveira@email.com,Manteiga Picante
+97,2019-04-08,Arroz Arbório,Mercearia,69,25.40,1752.60,Cartao de Debito,Julio Santos,julio.santos@email.com,Arroz Arbório
+98,2019-04-09,Chá de Erva Doce,Bebidas,42,4.40,184.80,Cartao de Credito,Marina Costa,marina.costa@email.com,Chá Doce
+99,2019-04-10,Requeijão Zero Lactose,Laticinios,59,9.80,578.20,Dinheiro,Felipe Lima,felipe.lima@email.com,Cremoso Zero
+100,2019-04-11,Açúcar Light,Mercearia,52,6.50,338.00,Pix,Camila Martins,camila.martins@email.com,Açúcar Light
+101,2019-04-12,Energético Vitaminas,Bebidas,44,8.80,387.20,Cartao de Debito,Rafael Almeida,rafael.almeida@email.com,Energia Vitaminas
+102,2019-04-13,Leite Sem Lactose,Laticinios,66,6.90,455.40,Cartao de Credito,Larissa Rodrigues,larissa.rodrigues@email.com,LactoFree
+103,2019-04-14,Farinha de Centeio,Mercearia,38,9.80,372.40,Dinheiro,Gustavo Nunes,gustavo.nunes@email.com,Farinha Centeio
+104,2019-04-15,Água Mineral 10L,Bebidas,61,6.50,396.50,Pix,Amanda Barbosa,amanda.barbosa@email.com,Água Família
+105,2019-04-16,Iogurte com Mel,Laticinios,49,6.30,308.70,Cartao de Debito,Leonardo Costa,leonardo.costa@email.com,Iogurte Mel
+106,2019-04-17,Sal com Iodo,Mercearia,55,2.60,143.00,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Sal Iodado
+107,2019-04-18,Refrigerante Cola Light,Bebidas,63,6.80,428.40,Dinheiro,Diego Lima,diego.lima@email.com,Cola Light
+108,2019-04-19,Queijo Provolone,Laticinios,41,38.20,1566.20,Pix,Carolina Souza,carolina.souza@email.com,Provolone Italiano
+109,2019-04-20,Óleo de Coco,Mercearia,74,12.90,954.60,Cartao de Debito,Ricardo Oliveira,ricardo.oliveira@email.com,Óleo Coco
+110,2019-04-21,Suco de Abacaxi,Bebidas,39,8.40,327.60,Cartao de Credito,Fernanda Ferreira,fernanda.ferreira@email.com,Suco Abacaxi
+111,2019-04-22,Leite em Pó Desnatado,Laticinios,57,19.80,1128.60,Dinheiro,Marcos Alves,marcos.alves@email.com,Leite Pó Light
+112,2019-04-23,Vinagre de Arroz,Mercearia,46,11.20,515.20,Pix,Patricia Mendes,patricia.mendes@email.com,Vinagre Arroz
+113,2019-04-24,Água com Limão,Bebidas,54,3.80,205.20,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Água Limão
+114,2019-04-25,Iogurte com Açai,Laticinios,43,7.40,318.20,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Iogurte Açai
+115,2019-04-26,Café Gourmet,Mercearia,28,22.50,630.00,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Café Gourmet
+116,2019-04-27,Refrigerante Laranja Zero,Bebidas,58,6.20,359.60,Pix,Thiago Oliveira,thiago.oliveira@email.com,Laranja Zero
+117,2019-04-28,Manteiga com Cebolinha,Laticinios,52,11.20,582.40,Cartao de Debito,Julio Santos,julio.santos@email.com,Manteiga Cebolinha
+118,2019-04-29,Arroz Basmati,Mercearia,71,28.90,2051.90,Cartao de Credito,Marina Costa,marina.costa@email.com,Arroz Basmati
+119,2019-04-30,Chá Verde com Limão,Bebidas,47,5.20,244.40,Dinheiro,Felipe Lima,felipe.lima@email.com,Chá Verde Limão
+120,2019-05-01,Requeijão com Pimenta,Laticinios,60,10.90,654.00,Pix,Camila Martins,camila.martins@email.com,Cremoso Picante
+121,2019-05-02,Açúcar de Coco,Mercearia,44,9.80,431.20,Cartao de Debito,Rafael Almeida,rafael.almeida@email.com,Açúcar Coco
+122,2019-05-03,Energético com Guaraná,Bebidas,51,8.50,433.50,Cartao de Credito,Larissa Rodrigues,larissa.rodrigues@email.com,Energia Guaraná
+123,2019-05-04,Leite de Amêndoas,Laticinios,35,15.80,553.00,Dinheiro,Gustavo Nunes,gustavo.nunes@email.com,Leite Amêndoas
+124,2019-05-05,Farinha de Trigo Integral,Mercearia,63,6.90,434.70,Pix,Amanda Barbosa,amanda.barbosa@email.com,Farinha Integral
+125,2019-05-06,Água Mineral 20L,Bebidas,59,8.90,525.10,Cartao de Debito,Leonardo Costa,leonardo.costa@email.com,Água Galão
+126,2019-05-07,Iogurte com Linhaça,Laticinios,48,6.80,326.40,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Iogurte Linhaça
+127,2019-05-08,Sal Rosa do Himalaia,Mercearia,56,12.50,700.00,Dinheiro,Diego Lima,diego.lima@email.com,Sal Himalaia
+128,2019-05-09,Refrigerante Uva Zero,Bebidas,64,6.90,441.60,Pix,Carolina Souza,carolina.souza@email.com,Uva Zero
+129,2019-05-10,Queijo Brie,Laticinios,42,42.50,1785.00,Cartao de Debito,Ricardo Oliveira,ricardo.oliveira@email.com,Brie Francês
+130,2019-05-11,Óleo de Abacate,Mercearia,68,14.80,1006.40,Cartao de Credito,Fernanda Ferreira,fernanda.ferreira@email.com,Óleo Abacate
+131,2019-05-12,Suco de Morango,Bebidas,37,9.20,340.40,Dinheiro,Marcos Alves,marcos.alves@email.com,Suco Morango
+132,2019-05-13,Leite em Pó Semi,Laticinios,61,20.50,1250.50,Pix,Patricia Mendes,patricia.mendes@email.com,Leite Pó Semi
+133,2019-05-14,Vinagre de Maçã Orgânico,Mercearia,49,13.80,676.20,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Vinagre Org
+134,2019-05-15,Água com Gás Natural,Bebidas,53,4.20,222.60,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Água Gás Natural
+135,2019-05-16,Iogurte com Chia,Laticinios,46,7.20,331.20,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Iogurte Chia
+136,2019-05-17,Café Espresso,Mercearia,33,24.90,821.70,Pix,Thiago Oliveira,thiago.oliveira@email.com,Café Espresso
+137,2019-05-18,Refrigerante Cola Diet,Bebidas,57,6.50,370.50,Cartao de Debito,Julio Santos,julio.santos@email.com,Cola Diet
+138,2019-05-19,Manteiga com Alho Negro,Laticinios,54,12.80,691.20,Cartao de Credito,Marina Costa,marina.costa@email.com,Manteiga Alho Negro
+139,2019-05-20,Arroz Vermelho,Mercearia,76,19.80,1504.80,Dinheiro,Felipe Lima,felipe.lima@email.com,Arroz Vermelho
+140,2019-05-21,Chá Preto com Frutas,Bebidas,45,5.60,252.00,Pix,Camila Martins,camila.martins@email.com,Chá Preto Frutas
+141,2019-05-22,Requeijão com Tomate Seco,Laticinios,58,11.50,667.00,Cartao de Debito,Rafael Almeida,rafael.almeida@email.com,Cremoso Tomate
+142,2019-05-23,Açúcar VHP,Mercearia,47,4.20,197.40,Cartao de Credito,Larissa Rodrigues,larissa.rodrigues@email.com,Açúcar VHP
+143,2019-05-24,Energético sem Açúcar,Bebidas,52,8.90,462.80,Dinheiro,Gustavo Nunes,gustavo.nunes@email.com,Energia Sem Açúcar
+144,2019-05-25,Leite de Coco,Laticinios,39,8.70,339.30,Pix,Amanda Barbosa,amanda.barbosa@email.com,Leite Coco
+145,2019-05-26,Farinha de Amêndoas,Mercearia,65,18.90,1228.50,Cartao de Debito,Leonardo Costa,leonardo.costa@email.com,Farinha Amêndoas
+146,2019-05-27,Água Mineral 500ml c/Gás,Bebidas,48,2.90,139.20,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Água Gás 500ml
+147,2019-05-28,Iogurte com Coco,Laticinios,51,6.50,331.50,Dinheiro,Diego Lima,diego.lima@email.com,Iogurte Coco
+148,2019-05-29,Sal Defumado,Mercearia,59,8.40,495.60,Pix,Carolina Souza,carolina.souza@email.com,Sal Defumado
+149,2019-05-30,Refrigerante Guaraná Diet,Bebidas,66,7.20,475.20,Cartao de Debito,Ricardo Oliveira,ricardo.oliveira@email.com,Guaraná Diet
+150,2019-05-31,Queijo Ricotta,Laticinios,44,15.90,699.60,Cartao de Credito,Fernanda Ferreira,fernanda.ferreira@email.com,Ricotta Fresco
+151,2019-06-01,Óleo de Linhaça,Mercearia,72,16.50,1188.00,Dinheiro,Marcos Alves,marcos.alves@email.com,Óleo Linhaça
+152,2019-06-02,Suco de Maracujá,Bebidas,41,9.80,401.80,Pix,Patricia Mendes,patricia.mendes@email.com,Suco Maracujá
+153,2019-06-03,Leite em Pó Zero Lactose,Laticinios,63,22.80,1436.40,Cartao de Debito,Bruno Rocha,bruno.rocha@email.com,Leite Pó Zero
+154,2019-06-04,Vinagre Balsâmico Premium,Mercearia,42,28.90,1213.80,Cartao de Credito,Carla Pereira,carla.pereira@email.com,Balsâmico Premium
+155,2019-06-05,Água com Gás e Sabor,Bebidas,55,4.50,247.50,Dinheiro,Eduarda Silva,eduarda.silva@email.com,Água Gás Sabor
+156,2019-06-06,Iogurte com Amêndoas,Laticinios,49,8.20,401.80,Pix,Thiago Oliveira,thiago.oliveira@email.com,Iogurte Amêndoas
+157,2019-06-07,Café Cappuccino,Mercearia,36,19.80,712.80,Cartao de Debito,Julio Santos,julio.santos@email.com,Café Cappuccino
+158,2019-06-08,Refrigerante Limão Diet,Bebidas,62,7.10,440.20,Cartao de Credito,Marina Costa,marina.costa@email.com,Limão Diet
+IDVenda,DataVenda,Produto,Categoria,Quantidade,PrecoUnitario,PrecoTotal,TipoPagamento,Cliente,EmailCliente,Marca
+159,2019-06-10,Leite Integral 1L,Laticinios,42,4.45,186.90,Cartao de Credito,Sofia Almeida,sofia.almeida@email.com,Vitaleite
+160,2019-06-15,Café Tradicional,Mercearia,38,12.80,486.40,Pix,Rafael Costa,rafael.costa@email.com,Café do Sítio
+161,2019-07-03,Refrigerante Cola,Bebidas,75,5.95,446.25,Cartao de Debito,Isabela Santos,isabela.santos@email.com,RefriCola
+162,2019-07-18,Queijo Prato,Laticinios,28,33.20,929.60,Dinheiro,Lucas Oliveira,lucas.oliveira@email.com,Queijo Bom
+163,2019-08-22,Arroz Branco 5kg,Mercearia,51,22.90,1167.90,Cartao de Credito,Mariana Lima,mariana.lima@email.com,Arroz Select
+164,2019-09-05,Água Mineral,Bebidas,84,2.35,197.40,Pix,Pedro Silva,pedro.silva@email.com,Água Pura
+165,2019-10-11,Iogurte Natural,Laticinios,63,4.15,261.45,Cartao de Debito,Ana Clara,ana.clara@email.com,YogurteFino
+166,2019-11-19,Manteiga,Mercearia,45,7.80,351.00,Dinheiro,João Pereira,joao.pereira@email.com,Manteiga Pura
+167,2019-12-24,Suco de Laranja,Bebidas,92,8.45,777.40,Cartao de Credito,Luana Costa,luana.costa@email.com,SucoNatural
+168,2020-01-08,Leite Desnatado,Laticinios,37,4.65,172.05,Pix,Gabriel Alves,gabriel.alves@email.com,Leve Leite
+169,2020-02-14,Café Premium,Mercearia,29,18.90,548.10,Cartao de Debito,Carolina Rocha,carolina.rocha@email.com,Café Premium
+170,2020-03-21,Refrigerante Guaraná,Bebidas,68,5.75,391.00,Dinheiro,Rodrigo Martins,rodrigo.martins@email.com,Guaraná Nativo
+171,2020-04-30,Queijo Minas,Laticinios,54,28.40,1533.60,Cartao de Credito,Patrícia Souza,patricia.souza@email.com,Queijo Mineiro
+172,2020-05-15,Feijão Carioca,Mercearia,72,8.20,590.40,Pix,Thiago Nunes,thiago.nunes@email.com,Feijão Bom
+173,2020-06-20,Água com Gás,Bebidas,47,3.45,162.15,Cartao de Debito,Amanda Costa,amanda.costa@email.com,Água Gaseificada
+174,2020-07-07,Iogurte Grego,Laticinios,58,6.25,362.50,Dinheiro,Bruno Lima,bruno.lima@email.com,Grego Natural
+175,2020-08-12,Azeite de Oliva,Mercearia,33,19.80,653.40,Cartao de Credito,Juliana Santos,juliana.santos@email.com,Azeite Fino
+176,2020-09-25,Suco de Uva,Bebidas,61,9.65,588.65,Pix,Marcos Oliveira,marcos.oliveira@email.com,Suco da Uva
+177,2020-10-31,Leite Semidesnatado,Laticinios,49,4.85,237.65,Cartao de Debito,Fernanda Almeida,fernanda.almeida@email.com,Leite Bom
+178,2020-11-18,Café Espresso,Mercearia,42,24.50,1029.00,Dinheiro,Ricardo Costa,ricardo.costa@email.com,Café Expresso
+179,2020-12-05,Refrigerante Limão,Bebidas,79,5.85,462.15,Cartao de Credito,Vanessa Pereira,vanessa.pereira@email.com,RefriLimão
+180,2021-01-12,Queijo Mussarela,Laticinios,66,31.80,2098.80,Pix,Diego Silva,diego.silva@email.com,Mussarela Fina
+181,2021-02-28,Arroz Integral,Mercearia,55,21.40,1177.00,Cartao de Debito,Larissa Martins,larissa.martins@email.com,Arroz Saúde
+182,2021-03-15,Água Mineral 500ml,Bebidas,88,1.95,171.60,Dinheiro,Paulo Rocha,paulo.rocha@email.com,Água Cristal
+183,2021-04-22,Iogurte Zero Lactose,Laticinios,71,5.95,422.45,Cartao de Credito,Camila Alves,camila.alves@email.com,Lactose Zero
+184,2021-05-30,Manteiga Light,Mercearia,39,8.45,329.55,Pix,Gustavo Lima,gustavo.lima@email.com,Manteiga Light
+185,2021-06-08,Suco de Maçã,Bebidas,53,8.90,471.70,Cartao de Debito,Marina Costa,marina.costa@email.com,Suco Maçã
+186,2021-07-14,Leite Integral,Laticinios,44,4.95,217.80,Dinheiro,Felipe Santos,felipe.santos@email.com,Leite Puro
+187,2021-08-19,Café Descafeinado,Mercearia,35,15.60,546.00,Cartao de Credito,Roberta Oliveira,roberta.oliveira@email.com,Café Suave
+188,2021-09-27,Refrigerante Cola Zero,Bebidas,82,6.45,528.90,Pix,Leonardo Almeida,leonardo.almeida@email.com,Cola Zero
+189,2021-10-11,Queijo Cottage,Laticinios,57,14.20,809.40,Cartao de Debito,Tatiane Costa,tatiane.costa@email.com,Cottage Natural
+190,2021-11-25,Feijão Preto,Mercearia,64,9.10,582.40,Dinheiro,Renata Silva,renata.silva@email.com,Feijão Preto
+191,2021-12-30,Água Tônica,Bebidas,46,4.25,195.50,Cartao de Credito,André Pereira,andre.pereira@email.com,Tônica Fina
+192,2022-01-17,Iogurte com Frutas,Laticinios,69,4.75,327.75,Pix,Carla Santos,carla.santos@email.com,Yogurte Frutas
+193,2022-02-22,Azeite Extra Virgem,Mercearia,41,24.90,1020.90,Cartao de Debito,Rafaela Lima,rafaela.lima@email.com,Azeite Premium
+194,2022-03-08,Suco de Pêssego,Bebidas,76,9.35,710.60,Dinheiro,Marcelo Costa,marcelo.costa@email.com,Suco Pêssego
+195,2022-04-14,Leite Desnatado,Laticinios,52,4.88,253.76,Cartao de Credito,Patrícia Alves,patricia.alves@email.com,Leite Light
+196,2022-05-21,Café Gourmet,Mercearia,47,27.80,1306.60,Pix,Rodrigo Martins,rodrigo.martins@email.com,Café Gourmet
+197,2022-06-29,Refrigerante Guaraná Zero,Bebidas,85,6.75,573.75,Cartao de Debito,Amanda Souza,amanda.souza@email.com,Guaraná Zero
+198,2022-07-13,Queijo Gouda,Laticinios,38,39.50,1501.00,Dinheiro,Bruno Oliveira,bruno.oliveira@email.com,Gouda Nobre
+199,2022-08-25,Arroz Parboilizado,Mercearia,59,20.80,1227.20,Cartao de Credito,Juliana Costa,juliana.costa@email.com,Arroz Parbo
+200,2022-09-30,Água Mineral 2L,Bebidas,91,2.65,241.15,Pix,Carlos Santos,carlos.santos@email.com,Água Fonte
+201,2022-10-12,Iogurte Proteico,Laticinios,63,7.45,469.35,Cartao de Debito,Fernanda Lima,fernanda.lima@email.com,ProteYogurte
+202,2022-11-18,Manteiga com Sal,Mercearia,44,8.20,360.80,Dinheiro,Ricardo Almeida,ricardo.almeida@email.com,Manteiga Sal
+203,2022-12-24,Suco de Maracujá,Bebidas,78,9.85,768.30,Cartao de Credito,Vanessa Silva,vanessa.silva@email.com,Suco Maracujá
+204,2019-07-22,Leite Condensado,Laticinios,35,5.20,182.00,Pix,Marcos Pereira,marcos.pereira@email.com,Leite Doce
+205,2019-08-30,Café Solúvel,Mercearia,27,14.90,402.30,Cartao de Debito,Ana Paula,ana.paula@email.com,Café Solúvel
+206,2019-09-14,Refrigerante Laranja,Bebidas,71,5.65,401.15,Dinheiro,Paulo Costa,paulo.costa@email.com,Laranja Refri
+207,2019-10-28,Queijo Ricotta,Laticinios,46,16.80,772.80,Cartao de Credito,Camila Oliveira,camila.oliveira@email.com,Ricotta Fresco
+208,2019-11-15,Macarrão Espaguete,Mercearia,83,3.95,327.85,Pix,Rafael Santos,rafael.santos@email.com,Massa Fina
+209,2019-12-20,Água de Coco,Bebidas,58,5.45,316.10,Cartao de Debito,Mariana Alves,mariana.alves@email.com,Coco Natural
+210,2020-01-25,Iogurte Natural,Laticinios,54,4.35,234.90,Dinheiro,Lucas Costa,lucas.costa@email.com,Yogurte Natural
+211,2020-02-29,Café Tradicional,Mercearia,39,13.45,524.55,Cartao de Credito,Isabela Lima,isabela.lima@email.com,Café Trad
+212,2020-03-12,Refrigerante Uva,Bebidas,67,5.95,398.65,Pix,Pedro Oliveira,pedro.oliveira@email.com,Uva Refri
+213,2020-04-18,Queijo Prato,Laticinios,61,34.20,2086.20,Cartao de Debito,Luana Santos,luana.santos@email.com,Queijo Prato
+214,2020-05-24,Arroz Branco,Mercearia,74,23.50,1739.00,Dinheiro,Gabriel Pereira,gabriel.pereira@email.com,Arroz Branco
+215,2020-06-30,Água com Gás,Bebidas,49,3.65,178.85,Cartao de Credito,Carolina Almeida,carolina.almeida@email.com,Água Gás
+216,2020-07-15,Iogurte Grego,Laticinios,66,6.45,425.70,Pix,Rodrigo Costa,rodrigo.costa@email.com,Grego Yogurte
+217,2020-08-20,Azeite de Oliva,Mercearia,31,21.40,663.40,Cartao de Debito,Patrícia Lima,patricia.lima@email.com,Azeite Oliva
+218,2020-09-05,Suco de Laranja,Bebidas,79,8.95,707.05,Dinheiro,Thiago Santos,thiago.santos@email.com,Suco Laranja
+219,2020-10-10,Leite Integral,Laticinios,51,5.05,257.55,Cartao de Credito,Amanda Oliveira,amanda.oliveira@email.com,Leite Integral
+220,2020-11-22,Café Premium,Mercearia,44,19.80,871.20,Pix,Bruno Alves,bruno.alves@email.com,Café Premium
+221,2020-12-28,Refrigerante Cola,Bebidas,86,6.05,520.30,Cartao de Debito,Juliana Costa,juliana.costa@email.com,Refri Cola
+222,2021-01-15,Queijo Minas,Laticinios,58,29.60,1716.80,Dinheiro,Marcos Silva,marcos.silva@email.com,Queijo Minas
+223,2021-02-20,Feijão Carioca,Mercearia,69,8.45,583.05,Cartao de Credito,Fernanda Pereira,fernanda.pereira@email.com,Feijão Carioca
+224,2021-03-25,Água Mineral,Bebidas,94,2.45,230.30,Pix,Ricardo Lima,ricardo.lima@email.com,Água Mineral
+225,2021-04-30,Iogurte Zero Lactose,Laticinios,73,6.15,448.95,Cartao de Debito,Vanessa Almeida,vanessa.almeida@email.com,Yogurte Zero
+226,2021-05-15,Manteiga,Mercearia,42,8.65,363.30,Dinheiro,Diego Costa,diego.costa@email.com,Manteiga
+227,2021-06-20,Suco de Uva,Bebidas,62,9.85,610.70,Cartao de Credito,Larissa Santos,larissa.santos@email.com,Suco Uva
+228,2021-07-25,Leite Semidesnatado,Laticinios,47,5.15,242.05,Pix,Paulo Oliveira,paulo.oliveira@email.com,Leite Semi
+229,2021-08-30,Café Descafeinado,Mercearia,38,16.40,623.20,Cartao de Debito,Camila Costa,camila.costa@email.com,Café Descaf
+230,2021-09-14,Refrigerante Limão Zero,Bebidas,88,6.85,602.80,Dinheiro,Gustavo Alves,gustavo.alves@email.com,Limão Zero
+231,2021-10-20,Queijo Cottage,Laticinios,64,15.40,985.60,Cartao de Credito,Marina Lima,marina.lima@email.com,Cottage
+232,2021-11-25,Feijão Preto,Mercearia,71,9.35,663.85,Pix,Felipe Pereira,felipe.pereira@email.com,Feijão Preto
+233,2021-12-30,Água Tônica,Bebidas,53,4.45,235.85,Cartao de Debito,Roberta Santos,roberta.santos@email.com,Tônica
+234,2022-01-15,Iogurte com Frutas,Laticinios,76,4.95,376.20,Dinheiro,Leonardo Costa,leonardo.costa@email.com,Yogurte Frutas
+235,2022-02-20,Azeite Extra Virgem,Mercearia,46,26.50,1219.00,Cartao de Credito,Tatiane Alves,tatiane.alves@email.com,Azeite Extra
+236,2022-03-25,Suco de Pêssego,Bebidas,81,9.65,781.65,Pix,Renata Oliveira,renata.oliveira@email.com,Suco Pêssego
+237,2022-04-30,Leite Desnatado,Laticinios,55,5.05,277.75,Cartao de Debito,André Lima,andre.lima@email.com,Leite Desnatado
+238,2022-05-15,Café Gourmet,Mercearia,52,29.40,1528.80,Dinheiro,Carla Santos,carla.santos@email.com,Café Gourmet
+239,2022-06-20,Refrigerante Guaraná Zero,Bebidas,89,6.95,618.55,Cartao de Credito,Rafaela Costa,rafaela.costa@email.com,Guaraná Zero
+240,2022-07-25,Queijo Gouda,Laticinios,41,41.20,1689.20,Pix,Marcelo Alves,marcelo.alves@email.com,Gouda
+241,2022-08-30,Arroz Parboilizado,Mercearia,64,21.90,1401.60,Cartao de Debito,Patrícia Pereira,patricia.pereira@email.com,Arroz Parbo
+242,2022-09-14,Água Mineral 2L,Bebidas,96,2.85,273.60,Dinheiro,Rodrigo Santos,rodrigo.santos@email.com,Água 2L
+243,2022-10-20,Iogurte Proteico,Laticinios,68,7.75,527.00,Cartao de Credito,Amanda Lima,amanda.lima@email.com,ProteYogurte
+244,2022-11-25,Manteiga com Sal,Mercearia,48,8.45,405.60,Pix,Bruno Costa,bruno.costa@email.com,Manteiga Sal
+245,2022-12-30,Suco de Maracujá,Bebidas,83,10.15,842.45,Cartao de Debito,Juliana Oliveira,juliana.oliveira@email.com,Suco Maracujá
+246,2019-08-08,Leite Condensado,Laticinios,39,5.45,212.55,Dinheiro,Carlos Silva,carlos.silva@email.com,Leite Cond
+247,2019-09-12,Café Solúvel,Mercearia,32,15.60,499.20,Cartao de Credito,Ana Costa,ana.costa@email.com,Café Sol
+248,2019-10-18,Refrigerante Laranja,Bebidas,74,5.85,432.90,Pix,Paulo Alves,paulo.alves@email.com,Refri Laranja
+249,2019-11-24,Queijo Ricotta,Laticinios,51,17.40,887.40,Cartao de Debito,Camila Pereira,camila.pereira@email.com,Ricotta
+250,2019-12-31,Macarrão Espaguete,Mercearia,87,4.15,361.05,Dinheiro,Rafael Lima,rafael.lima@email.com,Macarrão
+251,2020-01-15,Água de Coco,Bebidas,63,5.65,355.95,Cartao de Credito,Mariana Santos,mariana.santos@email.com,Água Coco
+252,2020-02-20,Iogurte Natural,Laticinios,59,4.55,268.45,Pix,Lucas Oliveira,lucas.oliveira@email.com,Yogurte Nat
+253,2020-03-25,Café Tradicional,Mercearia,43,13.85,595.55,Cartao de Debito,Isabela Costa,isabela.costa@email.com,Café Trad
+254,2020-04-30,Refrigerante Uva,Bebidas,72,6.15,442.80,Dinheiro,Pedro Alves,pedro.alves@email.com,Refri Uva
+255,2020-05-15,Queijo Prato,Laticinios,67,35.40,2371.80,Cartao de Credito,Luana Pereira,luana.pereira@email.com,Queijo Prato
+256,2020-06-20,Arroz Branco,Mercearia,79,24.20,1911.80,Pix,Gabriel Santos,gabriel.santos@email.com,Arroz
+257,2020-07-25,Água com Gás,Bebidas,54,3.85,207.90,Cartao de Debito,Carolina Lima,carolina.lima@email.com,Água Gás
+258,2020-08-30,Iogurte Grego,Laticinios,71,6.65,472.15,Dinheiro,Rodrigo Oliveira,rodrigo.oliveira@email.com,Grego
+259,2020-09-14,Azeite de Oliva,Mercearia,36,22.10,795.60,Cartao de Credito,Patrícia Costa,patricia.costa@email.com,Azeite
+260,2020-10-20,Suco de Laranja,Bebidas,84,9.25,777.00,Pix,Thiago Alves,thiago.alves@email.com,Suco Laranja
+261,2020-11-25,Leite Integral,Laticinios,56,5.25,294.00,Cartao de Debito,Amanda Pereira,amanda.pereira@email.com,Leite
+262,2020-12-30,Café Premium,Mercearia,49,20.60,1009.40,Dinheiro,Bruno Santos,bruno.santos@email.com,Café Prem
+263,2021-01-14,Refrigerante Cola,Bebidas,91,6.25,568.75,Cartao de Credito,Juliana Lima,juliana.lima@email.com,Refri Cola
+264,2021-02-19,Queijo Minas,Laticinios,63,30.80,1940.40,Pix,Marcos Costa,marcos.costa@email.com,Queijo Minas
+265,2021-03-24,Feijão Carioca,Mercearia,74,8.75,647.50,Cartao de Debito,Fernanda Alves,fernanda.alves@email.com,Feijão
+266,2021-04-29,Água Mineral,Bebidas,99,2.55,252.45,Dinheiro,Ricardo Pereira,ricardo.pereira@email.com,Água
+267,2021-05-14,Iogurte Zero Lactose,Laticinios,78,6.35,495.30,Cartao de Credito,Vanessa Santos,vanessa.santos@email.com,Yogurte Zero
+268,2021-06-19,Manteiga,Mercearia,47,8.95,420.65,Pix,Diego Lima,diego.lima@email.com,Manteiga
+269,2021-07-24,Suco de Uva,Bebidas,67,10.05,673.35,Cartao de Debito,Larissa Costa,larissa.costa@email.com,Suco Uva
+270,2021-08-29,Leite Semidesnatado,Laticinios,52,5.35,278.20,Dinheiro,Paulo Santos,paulo.santos@email.com,Leite Semi
+271,2021-09-13,Café Descafeinado,Mercearia,41,17.20,705.20,Cartao de Credito,Camila Oliveira,camila.oliveira@email.com,Café Descaf
+272,2021-10-19,Refrigerante Limão Zero,Bebidas,93,7.05,655.65,Pix,Gustavo Costa,gustavo.costa@email.com,Limão Zero
+273,2021-11-24,Queijo Cottage,Laticinios,69,16.00,1104.00,Cartao de Debito,Marina Alves,marina.alves@email.com,Cottage
+274,2021-12-29,Feijão Preto,Mercearia,76,9.65,733.40,Dinheiro,Felipe Lima,felipe.lima@email.com,Feijão Preto
+275,2022-01-13,Água Tônica,Bebidas,58,4.65,269.70,Cartao de Credito,Roberta Costa,roberta.costa@email.com,Tônica
+276,2022-02-18,Iogurte com Frutas,Laticinios,81,5.15,417.15,Pix,Leonardo Alves,leonardo.alves@email.com,Yogurte Frutas
+277,2022-03-25,Azeite Extra Virgem,Mercearia,51,27.80,1417.80,Cartao de Debito,Tatiane Santos,tatiane.santos@email.com,Azeite Extra
+278,2022-04-30,Suco de Pêssego,Bebidas,86,9.95,855.70,Dinheiro,Renata Lima,renata.lima@email.com,Suco Pêssego
+279,2022-05-15,Leite Desnatado,Laticinios,60,5.25,315.00,Cartao de Credito,André Costa,andre.costa@email.com,Leite Desnatado
+280,2022-06-20,Café Gourmet,Mercearia,57,30.80,1755.60,Pix,Carla Oliveira,carla.oliveira@email.com,Café Gourmet
+281,2022-07-25,Refrigerante Guaraná Zero,Bebidas,94,7.15,672.10,Cartao de Debito,Rafaela Santos,rafaela.santos@email.com,Guaraná Zero
+282,2022-08-30,Queijo Gouda,Laticinios,45,42.80,1926.00,Dinheiro,Marcelo Costa,marcelo.costa@email.com,Gouda
+283,2022-09-14,Arroz Parboilizado,Mercearia,69,22.90,1580.10,Cartao de Credito,Patrícia Alves,patricia.alves@email.com,Arroz Parbo
+284,2022-10-20,Água Mineral 2L,Bebidas,101,2.95,297.95,Pix,Rodrigo Lima,rodrigo.lima@email.com,Água 2L
+285,2022-11-25,Iogurte Proteico,Laticinios,73,8.05,587.65,Cartao de Debito,Amanda Santos,amanda.santos@email.com,ProteYogurte
+286,2022-12-30,Manteiga com Sal,Mercearia,53,8.75,463.75,Dinheiro,Bruno Oliveira,bruno.oliveira@email.com,Manteiga Sal
+287,2022-12-31,Suco de Maracujá,Bebidas,88,10.45,919.60,Cartao de Credito,Juliana Costa,juliana.costa@email.com,Suco Maracujá
+288,2019-07-10,Leite em Pó,Laticinios,42,19.50,819.00,Pix,Carlos Alves,carlos.alves@email.com,Leite Pó
+289,2019-08-15,Creme de Leite,Laticinios,35,4.25,148.75,Cartao de Debito,Ana Lima,ana.lima@email.com,Creme Leite
+290,2019-09-20,Requeijão,Laticinios,48,9.80,470.40,Dinheiro,Paulo Costa,paulo.costa@email.com,Requeijão
+291,2019-10-25,Iogurte Infantil,Laticinios,29,4.95,143.55,Cartao de Credito,Camila Santos,camila.santos@email.com,Yogurte Kids
+292,2019-11-30,Leite de Coco,Laticinios,37,8.25,305.25,Pix,Rafael Oliveira,rafael.oliveira@email.com,Leite Coco
+293,2019-12-15,Queijo Provolone,Laticinios,44,36.80,1619.20,Cartao de Debito,Mariana Pereira,mariana.pereira@email.com,Provolone
+294,2020-01-20,Iogurte com Cereal,Laticinios,56,5.45,305.20,Dinheiro,Lucas Alves,lucas.alves@email.com,Yogurte Cereal
+295,2020-02-25,Leite Aromatizado,Laticinios,41,5.65,231.65,Cartao de Credito,Isabela Santos,isabela.santos@email.com,Leite Aroma
+296,2020-03-30,Queijo Brie,Laticinios,33,41.50,1369.50,Pix,Pedro Lima,pedro.lima@email.com,Brie
+297,2020-04-15,Iogurte com Mel,Laticinios,62,6.25,387.50,Cartao de Debito,Luana Costa,luana.costa@email.com,Yogurte Mel
+298,2020-05-20,Leite Sem Lactose,Laticinios,58,6.85,397.30,Dinheiro,Gabriel Oliveira,gabriel.oliveira@email.com,Lactose Free
+299,2020-06-25,Queijo Coalho,Laticinios,47,22.40,1052.80,Cartao de Credito,Carolina Santos,carolina.santos@email.com,Queijo Coalho
+300,2020-07-30,Iogurte com Chia,Laticinios,51,7.45,379.95,Pix,Rodrigo Alves,rodrigo.alves@email.com,Yogurte Chia
+301,2020-08-14,Leite de Cabra,Laticinios,39,13.25,516.75,Cartao de Debito,Patrícia Pereira,patricia.pereira@email.com,Leite Cabra
+302,2020-09-19,Queijo Parmesão,Laticinios,45,45.80,2061.00,Dinheiro,Thiago Costa,thiago.costa@email.com,Parmesão
+303,2020-10-24,Iogurte com Açai,Laticinios,54,7.85,423.90,Cartao de Credito,Amanda Lima,amanda.lima@email.com,Yogurte Açai
+304,2020-11-29,Leite em Pó Integral,Laticinios,67,22.40,1500.80,Pix,Bruno Santos,bruno.santos@email.com,Leite Pó Int
+305,2020-12-14,Queijo Canastra,Laticinios,38,38.90,1478.20,Cartao de Debito,Juliana Oliveira,juliana.oliveira@email.com,Canastra
