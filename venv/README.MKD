@@ -1,0 +1,243 @@
+**README.md**
+
+# 📊 ProjetoAPI - Sistema de Consolidação e API de Dados
+
+Sistema para consolidar dados de múltiplos arquivos (CSV e Excel) e disponibilizá-los via API REST.
+
+## 🚀 Visão Geral
+
+O ProjetoAPI é uma solução completa para:
+- **Consolidar** dados de múltiplos arquivos CSV e XLSX
+- **Processar** automaticamente planilhas Excel com múltiplas abas
+- **Disponibilizar** os dados consolidados via API REST
+- **Facilitar** o acesso a dados estruturados para análise e aplicações
+
+## 📁 Estrutura do Projeto
+
+```
+ProjetoAPI/
+├── venv/                          # Ambiente virtual Python
+├── App/
+│   ├── Extract/                   # Módulo de extração e consolidação
+│   │   ├── AuxFunc/
+│   │   │   └── auxfunc.py         # Funções auxiliares (FileProcessor)
+│   │   └── extract.py             # Classe principal (DataConsolidator)
+│   └── Main/
+│       └── main.py                # Script de execução principal
+├── Data/                          # Diretório de dados (CSV/XLSX)
+│   ├── Vendas2019_20.csv
+│   └── Vendas2023_25_Pasta.xlsx
+└── README.md
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3.x**
+- **Pandas** - Manipulação de dados
+- **Flask/FastAPI** - Framework web para API (a implementar)
+- **Excel/CSV** - Formatos de entrada de dados
+
+## ⚙️ Instalação e Configuração
+
+### 1. Configurar Ambiente Virtual
+```bash
+cd ~/projects/ProjetoAPI/venv
+source bin/activate  # Linux/Mac
+# ou
+.\Scripts\activate   # Windows
+```
+
+### 2. Instalar Dependências
+```bash
+pip install pandas flask
+```
+
+### 3. Estrutura de Diretórios
+Certifique-se de que os arquivos de dados estão em:
+```
+/home/guilherme/projects/ProjetoAPI/venv/Data/
+```
+
+## 🎯 Como Usar
+
+### Consolidação de Dados
+```bash
+cd App/Main
+python main.py
+```
+
+### Exemplo de Saída
+```
+📁 Processando 2 arquivos em: /home/guilherme/projects/ProjetoAPI/venv/Data
+
+--- Processando CSV: Vendas2019_20.csv ---
+CSV lido: Vendas2019_20.csv - 306 linhas
+CSV adicionado: Vendas2019_20.csv
+
+--- Processando XLSX: Vendas2023_25_Pasta.xlsx ---
+ Analisando arquivo: Vendas2023_25_Pasta.xlsx
+  Número de planilhas: 3
+  Planilhas: ['Vendas', 'Clientes', 'Produtos']
+x MULTIPLAS PLANILHAS DETECTADAS
+Lendo XLSX com múltiplas planilhas: Vendas2023_25_Pasta.xlsx
+ Planilha 'Vendas': 150 linhas
+ Planilha 'Clientes': 50 linhas
+ Planilha 'Produtos': 30 linhas
+    Total consolidado do arquivo: 230 linhas
+ XLSX adicionado: Vendas2023_25_Pasta.xlsx
+
+ CONSOLIDAÇÃO CONCLUÍDA!
+ Total de linhas: 536
+ Total de colunas: 10
+```
+
+## 🔧 Funcionalidades
+
+### DataConsolidator
+- **Consolidação automática** de múltiplos arquivos
+- **Suporte a CSV e XLSX**
+- **Detecção inteligente** de planilhas múltiplas
+- **Metadados** de origem dos dados
+
+### FileProcessor
+- **Verificação de formato** de arquivos
+- **Análise de estrutura** de planilhas Excel
+- **Listagem de diretórios**
+- **Configuração flexível** de caminhos
+
+## 📡 API (Plano de Implementação)
+
+### Endpoints Propostos
+
+| Método | Endpoint | Descrição |
+|--------|----------|-----------|
+| GET | `/api/data` | Retorna todos os dados consolidados |
+| GET | `/api/data/{id}` | Retorna registro específico |
+| GET | `/api/estatisticas` | Estatísticas dos dados |
+| GET | `/api/colunas` | Lista de colunas disponíveis |
+| POST | `/api/filtrar` | Filtros personalizados |
+| GET | `/api/metadados` | Metadados das fontes |
+
+### Exemplo de Uso da API
+```python
+# Buscar todos os dados
+GET /api/data
+
+# Filtrar por período
+POST /api/filtrar
+{
+    "coluna": "data",
+    "operador": "between",
+    "valor": ["2023-01-01", "2023-12-31"]
+}
+
+# Estatísticas
+GET /api/estatisticas
+```
+
+## 🗃️ Estrutura de Dados
+
+### Dados Consolidados
+Os dados incluem metadados automáticos:
+- `_sheet_name`: Nome da planilha de origem (para XLSX)
+- `_file_name`: Nome do arquivo de origem
+
+### Formato de Resposta da API
+```json
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "coluna1": "valor1",
+            "coluna2": "valor2",
+            "_sheet_name": "Vendas",
+            "_file_name": "Vendas2023_25_Pasta.xlsx"
+        }
+    ],
+    "pagination": {
+        "total": 1000,
+        "page": 1,
+        "per_page": 50
+    },
+    "metadata": {
+        "colunas": ["coluna1", "coluna2", ...],
+        "tipos": {"coluna1": "string", "coluna2": "number"}
+    }
+}
+```
+
+## 🔄 Fluxo de Dados
+
+1. **Entrada**: Arquivos CSV/XLSX no diretório `Data/`
+2. **Processamento**: Consolidação automática pelo `DataConsolidator`
+3. **Saída**: DataFrame unificado pronto para API
+4. **API**: Endpoints REST para acesso aos dados
+
+## 🚧 Próximos Passos
+
+### Fase 1 - API Básica
+- [ ] Implementar servidor Flask/FastAPI
+- [ ] Criar endpoints básicos
+- [ ] Adicionar documentação Swagger
+
+### Fase 2 - Funcionalidades Avançadas
+- [ ] Autenticação e autorização
+- [ ] Cache de dados
+- [ ] Paginação eficiente
+- [ ] Filtros complexos
+
+### Fase 3 - Produção
+- [ ] Containerização com Docker
+- [ ] Logs e monitoramento
+- [ ] Deploy automatizado
+
+## 🐛 Solução de Problemas
+
+### Erro Comum: Importação de Módulos
+```python
+# No main.py, garantir o path correto:
+import os
+import sys
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+sys.path.append(parent_dir)
+```
+
+### Arquivos Não Encontrados
+- Verificar se os arquivos estão no diretório `Data/`
+- Confirmar permissões de leitura
+- Validar formatos suportados (.csv, .xlsx)
+
+## 📊 Exemplos de Uso
+
+### Consolidação Programática
+```python
+from Extract.extract import DataConsolidator
+
+# Uso básico
+consolidator = DataConsolidator()
+dados = consolidator.get_data_frame()
+
+# Com diretório customizado
+consolidator = DataConsolidator('/caminho/alternativo')
+```
+
+## 🤝 Contribuição
+
+1. Fork o projeto
+2. Crie uma branch para sua feature
+3. Commit suas mudanças
+4. Push para a branch
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+---
+
+**Desenvolvido por** Guilherme  
+**Repositório**: `~/projects/ProjetoAPI/`
+
+Para dúvidas ou sugestões, abra uma issue no repositório do projeto.
