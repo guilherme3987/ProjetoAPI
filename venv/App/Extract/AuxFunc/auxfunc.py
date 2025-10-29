@@ -3,6 +3,11 @@
 import os
 import pandas as pd
 
+"""
+Classe para processar arquivos em um diretório específico
+Métodos para acessar diretório, verificar tipos de arquivos e analisar planilhas XLSX
+"""
+
 class FileProcessor:
     def __init__(self, data_dir='/home/guilherme/projects/ProjetoAPI/venv/Data'):
         self.DATA_DIR = data_dir
@@ -20,7 +25,7 @@ class FileProcessor:
     
     def check_xlsx(self, file_name, check_multiple_sheets=False, file_path=None):
         """
-        Verifica se é arquivo XLSX e opcionalmente se contém múltiplas planilhas
+        Verifica se é arquivo XLSX e  se contém múltiplas planilhas
         """
         # Primeiro verifica se é arquivo XLSX
         is_xlsx = file_name.lower().endswith('.xlsx')

@@ -4,6 +4,8 @@ import os
 import pandas as pd
 from .AuxFunc.auxfunc import FileProcessor
 
+
+
 class DataConsolidator:
     def __init__(self, data_dir=None):
         if data_dir is None:
